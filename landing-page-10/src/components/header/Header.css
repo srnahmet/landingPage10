@@ -1,0 +1,42 @@
+header {
+  background-color:#fefbeb !important;
+  z-index: 10000 !important;
+  position: relative;
+}
+
+.navbar-brand {
+  color: #78350f !important;
+  font-weight: bold;
+  font-size: 150% !important;
+}
+
+.navbar-nav .nav-link {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #78350f;
+    font-weight: bold;
+    font-size: 125% !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .sign-up {
+    color: #78350f !important;
+    font-weight: bold !important;
+    border-color: #78350f !important;
+    background-color: none !important;
+    font-size: 125% !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+
+  p {
+    color: black !important;
+  }

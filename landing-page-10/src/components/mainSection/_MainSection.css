@@ -1,0 +1,151 @@
+Ana container
+section {
+  top: 20em !important;
+  height: 120vh;
+  background: linear-gradient(153deg, #fefbeb 50%, #fef3c7 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Ana container */
+#main-section-second {
+    background-color: #fef3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+/* İçerik container */
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100vh;
+}
+
+/* Sol taraf (Yazılar) */
+.left-side {
+  max-width: 50%;
+  padding: 20px;
+  position: relative;
+}
+
+/* Sağ taraf (Resim kutusu ve resim) */
+.right-side {
+    top: -300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Resim kutusu */
+.main-section-right-side-box {
+  /* min-width: 400px !important; */
+  width: 400px !important;
+  height: 400px;
+  background-color: #fbbf24;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Resim ayarları */
+.right-side img {
+  width: 30%;
+  border-radius: 10px;
+  position: absolute;
+}
+
+/* Başlık ve paragraf */
+h1 {
+  font-size: 4rem !important;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Buton ayarları */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.main-section-sign-up {
+  color: #78350f !important;
+  font-weight: bold !important;
+  border: 2px solid #78350f !important;
+  background-color: transparent !important;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+}
+
+.main-section-run-video {
+  color: #78350f !important;
+  font-size: 1.25rem !important;
+}
+
+/* Mobil uyum */
+@media (max-width: 768px) {
+  #main-section-first {
+    height: 90vh;
+  }
+
+  .row-1 {
+    /* margin-top: 400px; */
+    height: 10%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-side,
+  .right-side {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .right-side img {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .main-section-sign-up,
+  .main-section-run-video {
+    font-size: 1rem;
+  }
+
+  .main-section-right-side-box {
+    margin-top: 25px;
+    width: 300px !important;
+    height: 250px !important;
+    background-color: #fbbf24;
+  }
+
+  .right-side img {
+    width: 75% !important;
+    border-radius: 10px;
+    position: absolute;
+  }
+}
+

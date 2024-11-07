@@ -8,7 +8,6 @@ import InfoSection from "./components/infoSection";
 import ImageWithPopups from "./components/imageWithPopups";
 import Footer from "./components/footer";
 
-
 function App() {
   return (
     <div className="App">
