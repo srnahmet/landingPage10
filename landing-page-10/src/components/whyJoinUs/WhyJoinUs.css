@@ -148,7 +148,7 @@
 @media (max-width: 768px) {
   .why-join-us-section {
     background-color: white;
-    padding: 100px 0;
+    padding: 0 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,9 +156,9 @@
 
   .why-join-us-container {
     display: flex;
-    max-width: 85%;
+    max-width: 100%;
     width: 100%;
-    padding: 50px;
+    padding: 0px 50px ;
     border-radius: 30px;
     background-color: #ffffff;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -284,7 +284,7 @@
   .why-join-us-image-rectangle-5 {
     position: absolute;
     width: 45%;
-    right: -60px;
+    right: -15%;
     bottom: -60px;
   }
 

@@ -1,0 +1,128 @@
+/* Testimonials Ana Bölümü */
+.testimonials-section {
+  padding: 60px 0;
+  position: relative;
+}
+
+.testimonials-background-img {
+  height: 60%;
+  width: 100%;
+  bottom: 50px;
+  position: absolute;
+  z-index: 0;
+}
+
+/* Başlık Stili */
+.testimonials-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 55px;
+}
+
+/* Ok Butonları */
+.testimonials-nav-btn {
+  margin-bottom: 55px;
+  background-color: #f0f0f0;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.testimonials-nav-btn:hover {
+  background-color: #ddd;
+}
+
+.testimonials-slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  scrollbar-width: none;
+  padding-left: 50px;
+}
+
+.testimonials-slider::-webkit-scrollbar {
+  display: auto;
+}
+
+.testimonials-card {
+  flex: 0 0 calc(33.333% - 20px);
+  scroll-snap-align: center;
+  z-index: 1;
+}
+
+.card {
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 30px;
+}
+
+/* Şirket İkonu ve Adı */
+.testimonials-icon {
+  font-size: 1.5rem;
+  color: #007bff;
+  width: 50px;
+  height: 50px;
+}
+
+.company-name {
+  font-weight: bold;
+  margin-left: 8px;
+  color: #333;
+}
+
+/* Açıklama */
+.testimonials-description {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Avatar ve İsim */
+.testimonials-avatar img {
+  width: 40px;
+  height: 40px;
+}
+
+.person-name {
+  font-size: 1rem;
+  margin-left: 1em;
+  font-weight: bold;
+  color: #333;
+}
+
+.person-position {
+  font-size: 1rem;
+  margin-left: 1em;
+  /* font-weight: bold; */
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  /* Ok Butonları */
+  .testimonials-nav-btn {
+    margin-bottom: 25px;
+  }
+
+  /* Başlık Stili */
+  .testimonials-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px;
+  }
+
+  .card {
+    width: 100%;
+    padding-left: 50px;
+    width: 300px !important;
+  }
+}
