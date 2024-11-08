@@ -18,7 +18,7 @@ function BuyExhibit() {
               <div className='title-box'>
                 <h3 className="box-title">Title</h3>
                 <p className="box-description">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
-                <button className="btn btn-primary buy-btn"><img className='buy-btn-icon' src={`${process.env.PUBLIC_URL}/buyExhibit/buyIcon.png`} />Buy Now</button>
+                <button className="btn btn-primary buy-btn"><img className='buy-btn-icon' src={`${process.env.PUBLIC_URL}/images/buyExhibit/buyIcon.png`} />Buy Now</button>
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ function BuyExhibit() {
               <div className='title-box'>
                 <h3 className="box-title">Title</h3>
                 <p className="box-description">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
-                <button className="btn btn-primary buy-btn"><img className='buy-btn-icon' src={`${process.env.PUBLIC_URL}/buyExhibit/buyIcon.png`} />Buy Now</button>
+                <button className="btn btn-primary buy-btn"><img className='buy-btn-icon' src={`${process.env.PUBLIC_URL}/images/buyExhibit/buyIcon.png`} />Buy Now</button>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ function BuyExhibit() {
               <div className='title-box'>
                 <h3 className="box-title">Title</h3>
                 <p className="box-description">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
-                <button className="btn btn-primary buy-btn"><img className='buy-btn-icon' src={`${process.env.PUBLIC_URL}/buyExhibit/buyIcon.png`} />Buy Now</button>
+                <button className="btn btn-primary buy-btn"><img className='buy-btn-icon' src={`${process.env.PUBLIC_URL}/images/buyExhibit/buyIcon.png`} />Buy Now</button>
               </div>
             </div>
           </div>
