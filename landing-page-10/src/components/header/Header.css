@@ -40,3 +40,11 @@ header {
   p {
     color: black !important;
   }
+
+
+  @media (max-width: 768px) {
+
+    .navbar-nav {
+      text-align: center;
+    }
+  }
