@@ -73,8 +73,6 @@
   position: absolute;
 }
 
-/* Tüm tab-panellerin yan yana sıralanması ve kaydırılabilir olması */
-/* Tüm tab-panellerin yan yana sıralanması ve kaydırılabilir olması */
 @media (max-width: 768px) {
   .info-section .tab-content {
     display: flex;
