@@ -1,0 +1,145 @@
+.why-join-us-section {
+  background-color: #fffdf3;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-join-us-container {
+  display: flex;
+  max-width: 85%;
+  width: 100%;
+  padding: 80px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.why-join-us-left {
+  flex: 1;
+  padding: 100px;
+  /* margin-left: 100px; */
+}
+
+.why-join-us-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 1000;
+  line-height: 61.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.why-join-us-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.why-join-us-list li {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.why-join-us-list-text {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.why-join-us-tick {
+  color: #38b000;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.why-join-us-btn {
+  color: #78350f !important;
+  font-weight: bold !important;
+  border: 2px solid #78350f !important;
+  background-color: transparent !important;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  width: 25%;
+  height: 20%;
+}
+
+.why-join-us-btn:hover {
+  background-color: #005bb5;
+}
+
+.why-join-us-right {
+  position: relative;
+}
+
+.why-join-us-card {
+  border-radius: 16px !important;
+  background-color: white;
+  border-color: white !important;
+  padding: 5px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.why-join-us-card-img-top {
+  overflow: hidden;
+}
+
+.why-join-us-image-1 {
+  width: 100%;
+}
+
+.why-join-us-image-2 {
+  top: 50%;
+  width: 100%;
+  left: 0;
+  border-radius: 16px;
+}
+
+.why-join-us-image-rectangle-1 {
+  position: absolute;
+  width: 100%;
+}
+
+.why-join-us-image-rectangle-2 {
+  position: absolute;
+  width: 20%;
+  left: -25px;
+  top: 25px;
+}
+
+.why-join-us-image-rectangle-3 {
+  position: absolute;
+  width: 10%;
+  right: 75px;
+  top: -75px;
+}
+
+.why-join-us-image-rectangle-4 {
+  position: absolute;
+  width: 15%;
+  left: 75px;
+  bottom: -20px;
+}
+
+.why-join-us-image-rectangle-5 {
+  position: absolute;
+  width: 50%;
+  right: -150px;
+  bottom: -150px;
+}
+
+.why-join-us-image-rectangle-6 {
+  position: absolute;
+  width: 15%;
+  right: 100px;
+  bottom: -25px;
+}
