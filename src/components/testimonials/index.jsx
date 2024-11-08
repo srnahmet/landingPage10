@@ -12,50 +12,50 @@ function Testimonials() {
   
   const cardArray = [
     {
-      iconURL: "/images/testimonials/icon1.png",
+      iconURL: `${process.env.PUBLIC_URL}/images/testimonials/icon1.png`,
       title: "Zoomerr",
       text: "Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.",
-      avatarURL: "/images/testimonials/avatar1.png",
+      avatarURL: `${process.env.PUBLIC_URL}/images/testimonials/avatar1.png`,
       name: "Hellen Jummy",
       position: "Team Lead"
     },
     {
-      iconURL: "/images/testimonials/icon1.png",
+      iconURL: `${process.env.PUBLIC_URL}/images/testimonials/icon1.png`,
       title: "Zoomerr",
       text: "Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.",
-      avatarURL: "/images/testimonials/avatar1.png",
+      avatarURL: `${process.env.PUBLIC_URL}/images/testimonials/avatar1.png`,
       name: "Hellen Jummy",
       position: "Team Lead"
     },
     {
-      iconURL: "/images/testimonials/icon2.png",
+      iconURL: `${process.env.PUBLIC_URL}/images/testimonials/icon2.png`,
       title: "SHELLS",
       text: "Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.",
-      avatarURL: "/images/testimonials/avatar2.png",
+      avatarURL: `${process.env.PUBLIC_URL}/images/testimonials/avatar2.png`,
       name: "Hellena John",
       position: "Co-founder"
     },
     {
-      iconURL: "/images/testimonials/icon3.png",
+      iconURL: `${process.env.PUBLIC_URL}/images/testimonials/icon3.png`,
       title: "ArtVenue",
       text: "A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.",
-      avatarURL: "/images/testimonials/avatar3.png",
+      avatarURL: `${process.env.PUBLIC_URL}/images/testimonials/avatar3.png`,
       name: "David Oshodi",
       position: "Manager"
     },
     {
-      iconURL: "/images/testimonials/icon4.png",
+      iconURL: `${process.env.PUBLIC_URL}/images/testimonials/icon4.png`,
       title: "WAVES",
       text: "Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.",
-      avatarURL: "/images/testimonials/avatar4.png",
+      avatarURL: `${process.env.PUBLIC_URL}/images/testimonials/avatar4.png`,
       name: "Charolette Hanlin",
       position: "CEO"
     },
     {
-      iconURL: "/images/testimonials/icon5.png",
+      iconURL: `${process.env.PUBLIC_URL}/images/testimonials/icon5.png`,
       title: "kontrastr",
       text: "Amet morbi enim sodales quis dui, in habitant pharetra. Risus id fringilla sed adipiscing volutpat sit varius turpis. Sed pretium se.",
-      avatarURL: "/images/testimonials/avatar2.png",
+      avatarURL: `${process.env.PUBLIC_URL}/images/testimonials/avatar2.png`,
       name: "Ralph Edwards",
       position: "Product Designer"
     },
