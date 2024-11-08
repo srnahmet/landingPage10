@@ -11,9 +11,9 @@ function InfoSection() {
   return (
     <div className="container my-5 info-section">
 
-      {/* <img src="/images/infoSection/background3.png" alt="Background 3" className="background-image background-image3" />
-      <img src="/images/infoSection/background2.png" alt="Background 2" className="background-image background-image2" />
-      <img src="/images/infoSection/background1.png" alt="Background 1" className="background-image background-image1" /> */}
+      {/* <img src="landingPage10/images/infoSection/background3.png" alt="Background 3" className="background-image background-image3" />
+      <img src="landingPage10/images/infoSection/background2.png" alt="Background 2" className="background-image background-image2" />
+      <img src="landingPage10/images/infoSection/background1.png" alt="Background 1" className="background-image background-image1" /> */}
 
       <div className='info-section-container'>
         <div className="text-center mb-4">
@@ -38,7 +38,7 @@ function InfoSection() {
                 aria-selected={activeTab === "v-pills-tab1"}
                 onClick={() => handleTabClick("v-pills-tab1")}
               >
-                <img src="/images/infoSection/tab1.png" className='info-section-tab-icon' />Bibendum tellus {activeTab === "v-pills-tab1" && <span className={"info-section-arrow"}>&#8250;</span>}
+                <img src="landingPage10/images/infoSection/tab1.png" className='info-section-tab-icon' />Bibendum tellus {activeTab === "v-pills-tab1" && <span className={"info-section-arrow"}>&#8250;</span>}
               </a>
               <a
                 className={`nav-link ${activeTab === "v-pills-tab2" ? "active" : ""}`}
@@ -50,7 +50,7 @@ function InfoSection() {
                 aria-selected={activeTab === "v-pills-tab2"}
                 onClick={() => handleTabClick("v-pills-tab2")}
               >
-                <img src="/images/infoSection/tab2.png" className='info-section-tab-icon' />
+                <img src="landingPage10/images/infoSection/tab2.png" className='info-section-tab-icon' />
                 Cras eget {activeTab === "v-pills-tab2" && <span className={"info-section-arrow"}>&#8250;</span>}
               </a>
               <a
@@ -63,7 +63,7 @@ function InfoSection() {
                 aria-selected={activeTab === "v-pills-tab3"}
                 onClick={() => handleTabClick("v-pills-tab3")}
               >
-                <img src="/images/infoSection/tab3.png" className='info-section-tab-icon' />
+                <img src="landingPage10/images/infoSection/tab3.png" className='info-section-tab-icon' />
                 Dolor pharetra {activeTab === "v-pills-tab3" && <span className={"info-section-arrow"}>&#8250;</span>}
               </a>
               <a
@@ -76,7 +76,7 @@ function InfoSection() {
                 aria-selected={activeTab === "v-pills-tab4"}
                 onClick={() => handleTabClick("v-pills-tab4")}
               >
-                <img src="/images/infoSection/tab4.png" className='info-section-tab-icon' />
+                <img src="landingPage10/images/infoSection/tab4.png" className='info-section-tab-icon' />
                 Amet, fringilla {activeTab === "v-pills-tab4" && <span className={"info-section-arrow"}>&#8250;</span>}
               </a>
               <a
@@ -89,7 +89,7 @@ function InfoSection() {
                 aria-selected={activeTab === "v-pills-tab5"}
                 onClick={() => handleTabClick("v-pills-tab5")}
               >
-                <img src="/images/infoSection/tab5.png" className='info-section-tab-icon' />
+                <img src="landingPage10/images/infoSection/tab5.png" className='info-section-tab-icon' />
                 Amet nibh {activeTab === "v-pills-tab5" && <span className={"info-section-arrow"}>&#8250;</span>}
               </a>
               <a
@@ -102,7 +102,7 @@ function InfoSection() {
                 aria-selected={activeTab === "v-pills-tab6"}
                 onClick={() => handleTabClick("v-pills-tab6")}
               >
-                <img src="/images/infoSection/tab6.png" className='info-section-tab-icon' />
+                <img src="landingPage10/images/infoSection/tab6.png" className='info-section-tab-icon' />
                 Sed velit {activeTab === "v-pills-tab6" && <span className={"info-section-arrow"}>&#8250;</span>}
               </a>
             </div>
