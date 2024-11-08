@@ -89,7 +89,7 @@ function Testimonials() {
     if (!isDragging.current) return;
     e.preventDefault();
     const x = e.pageX - sliderRef.current.offsetLeft;
-    const walk = (x - startX.current) * 2; // Sürükleme hızını artırmak için *2
+    const walk = (x - startX.current) * 2;
     sliderRef.current.scrollLeft = scrollLeft.current - walk;
   };
 

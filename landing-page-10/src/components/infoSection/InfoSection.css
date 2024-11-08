@@ -1,0 +1,142 @@
+.info-section .section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+}
+
+
+.info-section .section-subtitle {
+  text-align: left;
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 25px; /* Altında 25px boşluk */
+}
+
+.info-section-arrow {
+  float: right;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.info-section-tab-icon {
+  width: 1rem;
+  height: auto;
+  margin-right: 10px;
+}
+
+.info-section .nav-link {
+  color: #555;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.info-section .nav-link.active {
+  border-color: transparent !important;
+  color: black !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-section .nav-link:hover {
+  background-color: #f8f9fa;
+}
+
+.info-section .tab-pane {
+  background-color: #f8f9fa !important;
+  border-radius: 5px;
+  border-color: white !important;
+}
+
+.info-section-image1 {
+  width: 35%;
+  padding-top: 2%;
+  left: 50%;
+  height: auto;
+  position: absolute;
+}
+.info-section-image2 {
+  width: 35%;
+  left: 40%;
+  height: auto;
+  position: absolute;
+}
+
+.info-section-image3 {
+  width: 10%;
+  padding-top: 10%;
+  left: 75%;
+  height: auto;
+  position: absolute;
+}
+
+/* Tüm tab-panellerin yan yana sıralanması ve kaydırılabilir olması */
+/* Tüm tab-panellerin yan yana sıralanması ve kaydırılabilir olması */
+@media (max-width: 768px) {
+  .info-section .tab-content {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+  .info-section .tab-pane {
+    min-width: 100%;
+    flex-shrink: 0;
+    display: none; /* Başlangıçta tüm tab-paneller gizlenir */
+  }
+
+  /* Aktif tab için göster */
+  .info-section .tab-pane.show {
+    display: block;
+  }
+
+  .info-section .nav-pills {
+    flex-direction: row !important;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .info-section .nav-link {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .info-section .nav-pills::-webkit-scrollbar {
+    display: none; /* Gizli scrollbar */
+  }
+
+  .info-section-image1 {
+    width: 75%;
+    padding-top: 2%;
+    left: 15%;
+    height: auto;
+    position: absolute;
+  }
+  .info-section-image2 {
+    width: 75%;
+    left: 5%;
+    height: auto;
+    position: absolute;
+  }
+
+  .info-section-image3 {
+    width: 25%;
+    padding-top: 20%;
+    left: 75%;
+    height: auto;
+    position: absolute;
+  }
+
+  .info-section .section-title {
+    text-align: center;
+  }
+  
+  .info-section .section-subtitle {
+    text-align: center;
+  }
+}
