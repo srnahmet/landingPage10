@@ -33,8 +33,8 @@ function Footer() {
 
         <div className="footer-column">
           <p className="footer-heading">Get the App</p>
-          <img src="/landingPage10/images/footer/iphone.png" alt="app image" className="footer-image" />
-          <img src="/landingPage10/images/footer/google.png" alt="app image" className="footer-image" />
+          <img src="%PUBLIC_URL%/images/footer/iphone.png" alt="app image" className="footer-image" />
+          <img src="%PUBLIC_URL%/images/footer/google.png" alt="app image" className="footer-image" />
           <p className='footer-item'>Follow Us</p>
             <i className="fab fa-youtube footer-icon"></i>
             <i className="fab fa-facebook footer-icon"></i>
