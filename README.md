@@ -1,10 +1,10 @@
-Merhhaba,
+# Merhhaba,
 
-Uygulama Reactjs framework ü  ve bootstrap ile yazılmıştır. 
+# Uygulama Reactjs framework ü  ve bootstrap ile yazılmıştır. 
 
-WebPage için : https://srnahmet.github.io/landingPage10/
+## WebPage için : https://srnahmet.github.io/landingPage10/
 
-İş yoğunluğumdan dolayı kısıtlı bir sürede çalışma yapabildim. Eksiklerin farkındayım, iyi çalışmalar...
+# İş yoğunluğumdan dolayı kısıtlı bir sürede çalışma yapabildim. Eksiklerin farkındayım, iyi çalışmalar...
 
 # Getting Started with Create React App
 
