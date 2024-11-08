@@ -3,21 +3,18 @@
   width: 100%;
   padding: 120px 0px 100px 100px;
   gap: 100px;
-  opacity: 0px;
   max-width: none;
 }
 
 .main-section-col-1 {
   padding: 30px 0px 0px 0px;
   /* gap: 80px; */
-  opacity: 0px;
 }
 
 .main-section-h1 {
   width: Fill (714px) px;
   height: Hug (79px) px;
   gap: 8px;
-  opacity: 0px;
   font-family: Roboto;
   font-size: 72px;
   font-weight: 800;
@@ -29,7 +26,6 @@
   max-width: 714px;
   height: 58px;
   gap: 0px;
-  opacity: 0px;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
@@ -41,7 +37,6 @@
   width: 486px;
   height: 503px;
   gap: 0px;
-  opacity: 0px;
   padding: -50px 0px 0px 0px;
   position: relative;
 }
@@ -49,7 +44,6 @@
 .main-section-image {
   width: auto;
   height: 388px;
-  opacity: 0px;
   position: relative;
   top: -35px;
   left: -45px;
@@ -59,7 +53,6 @@
   width: 350px;
   height: 350px;
   border-radius: 50px;
-  opacity: 0px;
   background-color: #fbbf24;
   margin-left: 100px;
   position: absolute;
@@ -95,7 +88,6 @@
     width: 100% !important;
     padding: 25px !important;
     gap: 0px !important;
-    opacity: 0px;
     max-width: none;
     height: 150vh !important;
   }
@@ -138,7 +130,6 @@
     width: 200px;
     height: 200px;
     border-radius: 50px;
-    opacity: 0px;
     background-color: #fbbf24;
     left: 50%;
     top: 150px;
