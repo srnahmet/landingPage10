@@ -1,4 +1,4 @@
-# Merhhaba,
+# Merhaba,
 
 # Uygulama Reactjs framework ü  ve bootstrap ile yazılmıştır. 
 
